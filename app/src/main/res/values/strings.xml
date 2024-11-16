@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CreateAccountApp</string>
+    <string name="go_to_next_page">Go to Next Page</string>
+    <string name="adventure_image_description">Adventure image</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="sign_in_message">Sign in to access your account</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="next">Next</string>
+    <string name="new_member_register">New Member? Register now</string>
+    <string name="get_started">Get Started</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="create_account_prompt">by creating a free account</string>
+    <string name="phone_number_hint">Phone Number</string>
+    <string name="terms_conditions_prompt">By checking the box you agree to our Terms and Conditions.</string>
+    <string name="next_button">NEXT</string>
+    <string name="already_member">Already a member? Log In</string>
+</resources>

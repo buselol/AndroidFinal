@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Image View for the photo -->
+    <ImageView
+        android:id="@+id/adventureImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/test"
+        android:contentDescription="@string/adventure_image_description" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/get_started"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/signInTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:text="@string/create_account_prompt"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <!-- EditTexts for full name, email, phone, password -->
+    <!-- Make sure to update references to strings and drawable resources -->
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
